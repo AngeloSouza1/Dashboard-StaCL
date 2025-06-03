@@ -33,7 +33,6 @@ interface SidebarProps {
 const menuItems = [
   { text: "Vendas", icon: <PointOfSaleIcon />, path: "/" },
   { text: "Cards Explicados", icon: <InfoIcon />, path: "/kpi-explicacao" },
-  { text: "Relatório", icon: <DescriptionIcon />, path: "/relatorio" },
 ]
 
 export default function Sidebar({ open, onClose, drawerWidth, isMobile }: SidebarProps) {
